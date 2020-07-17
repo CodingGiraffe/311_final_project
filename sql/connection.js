@@ -7,8 +7,8 @@ class Connection {
       this.pool = mysql.createPool({
         host: "35.238.193.32",
         user: "root",
-        password: "Kinglouie1",
-        database: "",
+        password: "",
+        database: "Admin",
       })
 
       return this.pool
