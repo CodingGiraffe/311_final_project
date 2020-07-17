@@ -8,7 +8,7 @@ class Connection {
         host: "35.238.193.32",
         user: "root",
         password: "Kinglouie1",
-        database: "Admin",
+        database: "",
       })
 
       return this.pool
